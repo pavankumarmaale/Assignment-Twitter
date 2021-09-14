@@ -1,0 +1,65 @@
+### API 1
+POST http://localhost:3007/register/
+Content-Type:  application/json
+
+{
+  "username": "adam_richard",
+  "password": "richard_567",
+  "name": "Adam Richard",
+  "gender": "male"
+}
+
+### API 2
+POST http://localhost:3007/login/
+Content-Type: application/json
+
+{
+  "username":"JoeBiden",
+  "password":"biden@123"
+}
+
+### API 3
+GET http://localhost:3007/user/tweets/feed/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjIxNDg2Mjk0fQ.d2M4FiTc-NSuDU8VNb1eP3E9xPEnn83-QNoBWEumjok
+
+### API 4
+GET http://localhost:3007/user/following/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjIxNDg2Mjk0fQ.d2M4FiTc-NSuDU8VNb1eP3E9xPEnn83-QNoBWEumjok
+
+### API 5
+GET http://localhost:3007/user/followers/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjIxNDg2Mjk0fQ.d2M4FiTc-NSuDU8VNb1eP3E9xPEnn83-QNoBWEumjok
+
+### API 6
+GET http://localhost:3007/tweets/1/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjIxNDg2Mjk0fQ.d2M4FiTc-NSuDU8VNb1eP3E9xPEnn83-QNoBWEumjok
+
+### API 7
+GET http://localhost:3007/tweets/1/likes/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjIxNDg2Mjk0fQ.d2M4FiTc-NSuDU8VNb1eP3E9xPEnn83-QNoBWEumjok
+
+
+### API 8
+GET http://localhost:3007/tweets/5/replies/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjIxNDg2Mjk0fQ.d2M4FiTc-NSuDU8VNb1eP3E9xPEnn83-QNoBWEumjok
+
+
+### API 9
+GET http://localhost:3007/user/tweets/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjIxNDg2Mjk0fQ.d2M4FiTc-NSuDU8VNb1eP3E9xPEnn83-QNoBWEumjok
+
+
+### API 10
+POST http://localhost:3007/user/tweets/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjIxNDg2Mjk0fQ.d2M4FiTc-NSuDU8VNb1eP3E9xPEnn83-QNoBWEumjok
+
+
+Content-Type: application/json
+{
+   "tweet": "The Mornings..."
+}
+
+### API 11 
+DELETE http://localhost:3007/tweets/2/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IkpvZUJpZGVuIiwiaWF0IjoxNjIxNDg2Mjk0fQ.d2M4FiTc-NSuDU8VNb1eP3E9xPEnn83-QNoBWEumjok
+
